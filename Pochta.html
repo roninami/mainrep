@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link
+            href="http://fonts.googleapis.com/css?family=Raleway"
+            rel="stylesheet"
+            type="text/css" />
+    <link href="css.css" rel="stylesheet" type="text/css" />
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id = 'divdiv'>
+    <div id="mainDiv">
+        <div id="div">
+            <h1 class="h11">Registration</h1>
+            <label class="text">Email</label>
+            <div class="div-pass1">
+                <input type="email" placeholder="example@domain.com" onclick="deleteErrorDiv()" class="input"/>
+            </div>
+            <label class="text">Password</label>
+            <div class="div-pass">
+                <input type="password" placeholder="Enter password" class="input" onclick="deleteErrorDiv()"/>
+                <button onclick="visiblePasswd1()" class="passwdbut"></button>
+            </div>
+            <label class="text">Confirm Password</label>
+            <div class="div-pass">
+                <input type="password" class="input" placeholder="Enter password again" onclick="deleteErrorDiv()"/>
+                <button onclick="visiblePasswd2()" class="passwdbut"></button>
+            </div>
+            <div class="div-pass" style="align-items: center">
+                <input type="checkbox" onchange="galochka()" id="check"/>
+                <label class="text">I agree to the processing of my personal information.</label>
+            </div>
+            <button onclick = 'sendinfo()' disabled id="but">Sign up</button>
+            <button id="logBut" onclick="loginWin()">Log in</button>
+        </div>
+    </div>
+</div>
+<script src="registration.js"></script>
+</body>
+</html>
+

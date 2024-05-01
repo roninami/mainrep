@@ -1,0 +1,135 @@
+html {
+    font-size: 20px;
+    font-family: 'Raleway';
+    background: url("4062169.jpg");
+}
+.errorText{
+    color: red;
+}
+.h11{
+    padding-left:10px ;
+    padding-right: 5px;
+}
+
+.sucText{
+    color: green;
+}
+
+h1 {
+    margin: 0;
+    padding: 20px 0;
+    font-size: 40px;
+    text-align: center;
+    color: orange;
+}
+label.text{
+    color: black;
+    margin-top: 25px;
+}
+#mainDiv{
+    border-radius: 20px;
+    width: 400px;
+    margin: auto auto;
+    background-color: white;
+    padding: 30px 20px 30px 30px;
+    border: 5px solid orange;
+}
+input.input{
+    margin-bottom: 15px;
+    border-top:none ;
+    border-right: none;
+    border-left:none ;
+    height: 35px;
+    font-size: 20px;
+    flex-grow: 1;
+
+}
+.input:focus{
+    border-color: orange;
+    outline: none;
+}
+#check{
+    accent-color: orange;
+}
+#errorDiv {
+    border: 5px solid red;
+    width: 430px;
+    background-color: white;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+#sucDiv {
+    border: 5px solid green;
+    width: 430px;
+    background-color: white;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    border-radius: 20px;
+}
+button.passwdbut{
+    border: 5px orange;
+    color: white;
+    background: url("506282-200.png") 50% 50% no-repeat;
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+}
+#but{
+    margin-top:15px ;
+    margin-bottom: 15px;
+    background-color: #FFA500;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    border: none;
+    border-radius: 20px 20px 20px 20px;
+    transition: background-color 0.3s;
+    font-size: 20px;
+
+}
+
+#but:hover{
+    background-color: #FF8C00;
+}
+
+#logBut{
+    background-color: white;
+    color: orange;
+    padding: 15px 30px;
+    text-align: center;
+    border: 2px solid orange;
+    border-radius: 20px 20px 20px 20px;
+    transition: background-color 0.3s;
+    font-size: 20px;
+
+}
+
+#logBut:hover{
+    background-color: #fee3c1;
+}
+
+#div{
+    display: flex;
+    flex-direction: column;
+}
+.div-pass{
+    display: flex;
+    padding-top: 25px;
+
+}
+
+.logindiv{
+    display: flex;
+    flex-direction: column;
+}
+
+.div-pass1{
+    display: flex;
+    padding-right: 25px;
+    padding-top: 25px;
+}
+

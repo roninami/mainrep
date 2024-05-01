@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Пример</title>
+</head>
+<body>
+<script>
+  // Создаем новый элемент <p> и добавляем несколько объектов
+  const paragraph = document.createElement('p');
+
+  // Создаем первый объект (текст)
+  const textNode1 = document.createTextNode('Текст объекта 1');
+  paragraph.appendChild(textNode1);
+
+  // Создаем второй объект (изображение)
+  const image = document.createElement('img');
+  image.src = 'path/to/image.jpg';
+  paragraph.appendChild(image);
+
+  // Создаем третий объект (ссылка)
+  const link = document.createElement('a');
+  link.href = 'https://www.example.com';
+  link.textContent = 'Ссылка на пример';
+  paragraph.appendChild(link);
+
+  // Добавляем элемент <p> к корневому элементу документа
+  document.body.appendChild(paragraph);
+</script>
+</body>
+</html>
