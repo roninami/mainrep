@@ -1,69 +1,123 @@
+*{
+    box-sizing: border-box;
+}
+.card{
+    padding: 40px 32px 0 36px;
+}
+.hui{
+    font-size: 40px;
+}
+.opisanie{
+    font-size: 20px;
+    color: grey;
+}
+html{
+    background-color: aliceblue;
+    font-family: 'Fira+Sans';
+}
+.main-main-div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-right:1%;
+    padding-left: 1%;
+}
+
 .main-div1{
     width: 100%;
-    height: 730px;
+    max-width: 1200px;
+    height: 640px;
     display: flex;
+}
+
+.skidka{
+    color: grey;
 }
 
 .card-div{
+    background-image: url("sbercard1024.b77a6c95.png") ;
     display: flex;
+    background-position: right bottom ;
+    background-repeat: no-repeat ;
+    /*background-size:  contain ;*/
+    background-size: auto 100%;
     flex-direction: column;
     justify-content: space-between;
-    background-color: red;
+    background-color: white;
     flex-grow: 1;
     border-radius: 20px;
     overflow: hidden;
+    max-height: 49%;
 }
 
 .yvedom-div{
+    background-image: url("yvedomleniya1024.bc3717ff.png");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    /*background-size: contain;*/
+    background-size: auto 100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    background-color: green;
+    background-color: white;
     flex-grow: 1;
     border-radius: 20px;
+    max-height:49%;
 }
 
 .cashback-div{
-    justify-content: space-between;
-    display: flex;
-    flex-direction: column;
-    background-color: blue;
+    background-image: url("rest1440.7b33b58e (1).png");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 100% auto;
+    background-color: white;
     border-radius: 20px;
     flex-grow: 1;
-    overflow: hidden;
-
 
 }
+.card:hover{
+    box-shadow: 0 0 10px lightgrey;
+    scale: 1.01;
+    transition: all 0.2s ease-in-out;
+}
+
 .cont{
-    flex-grow: 1;
+    flex-grow: 2;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    margin-left: 1%;
 }
 
 h1{
     text-align: center;
 }
+@media (max-width: 750px){
+    .main-div1{
+        flex-direction: column;
+    }
+    .cashback-div{
+        background-image: url("rest.29b6d834.png");
+        background-size: auto 100%;
+        margin-bottom: 20px;
+    }
+    .card-div{
+        margin-bottom: 20px;
+    }
+    .yvedom-div{
+        margin-bottom: 20px;
+    }
+    .hui{
+        font-size: 30px;
+    }
+    .opisanie{
+        font-size: 15px;
+        color: grey;
+    }
+    .card{
+        padding-top: 10px;
+    }
 
-.img-1{
-    background-image: url("rest1440.7b33b58e (1).png");
-    background-position:  right;
-    background-size: 60%;
-    background-repeat: no-repeat;
-    height: 60%;
 }
 
-.img-2{
-    background-image: url("sbercard1024.b77a6c95.png");
-    background-position:  right;
-    background-size: 60%;
-    background-repeat: no-repeat;
-    height: 60%;
-}
-
-.img-3{
-    background-image: url("yvedomleniya1024.bc3717ff.png");
-    background-position:  right;
-    background-size: 60%;
-    background-repeat: no-repeat;
-    height: 60%;
-}
