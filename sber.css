@@ -5,25 +5,32 @@
 }
 
 .card-div{
-    background-image: url("sbercard1024.b77a6c95.png");
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     background-color: red;
     flex-grow: 1;
     border-radius: 20px;
+    overflow: hidden;
 }
 
 .yvedom-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     background-color: green;
     flex-grow: 1;
-    background-image: url("yvedomleniya1024.bc3717ff.png");
     border-radius: 20px;
 }
 
 .cashback-div{
-    display: block;
+    justify-content: space-between;
+    display: flex;
     flex-direction: column;
     background-color: blue;
     border-radius: 20px;
     flex-grow: 1;
+    overflow: hidden;
 
 
 }
@@ -39,7 +46,24 @@ h1{
 
 .img-1{
     background-image: url("rest1440.7b33b58e (1).png");
-    background-position: bottom;
-    background-size: auto;
+    background-position:  right;
+    background-size: 60%;
+    background-repeat: no-repeat;
+    height: 60%;
+}
+
+.img-2{
+    background-image: url("sbercard1024.b77a6c95.png");
+    background-position:  right;
+    background-size: 60%;
+    background-repeat: no-repeat;
+    height: 60%;
+}
+
+.img-3{
+    background-image: url("yvedomleniya1024.bc3717ff.png");
+    background-position:  right;
+    background-size: 60%;
+    background-repeat: no-repeat;
     height: 60%;
 }
