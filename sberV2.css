@@ -1,0 +1,22 @@
+.parent_content_flex_div{
+    width: 100%;
+    height: 990px;
+    display: flex;
+    justify-content: center;
+}
+.content_flex_div{
+    display: flex;
+    width: 100%;
+    max-width: 900px;
+}
+.sber_prime{
+    height: 100%;
+    flex-grow: 1;
+    border-radius: 20px;
+    background-color: white;
+    margin-left: 10px;
+}
+html{
+    background-color: aliceblue;
+}
+
