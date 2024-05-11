@@ -23,13 +23,13 @@
     background-color: white;
     margin-left: 20px;
     max-width: 380px;
+    min-width: 320px;
     overflow: hidden;
 }
 html{
     background-color: aliceblue;
     font-family: 'Fira+Sans';
 }
-
 .free_sber_card{
     background-image: url("sber.7d06a691.png");
 }
@@ -56,15 +56,14 @@ html{
     background: linear-gradient(to right, yellow, lightgreen, lightblue);
 }
 .vigoda{
+    padding-top: 10px;
     max-width:380px ;
     width: 100%;
     height: 48px;
     background-color: rgb(240, 228, 5);
     border-top-left-radius: 8px;
     border-top-right-radius:8px;
-    padding: 11px 12px;
 }
-
 .sber_div{
     width: 100%;
     height: 100px;
@@ -73,15 +72,25 @@ html{
     background-position: center;
     margin-bottom:-10px ;
 }
+.sber_div1{
+    width: 100%;
+    height: 100px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom:-10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 ul{
     padding-right: 16px;
     padding-left: 16px;
 }
-
 .vigoda_350{
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 530;
-    padding-left: 15%;
+    padding-left: 20%;
 }
 
 .dop_uslovie{
@@ -139,5 +148,32 @@ ul{
 }
 .ul_podpiska li:last-child{
     border-bottom: none;
+}
+
+.sber\+\+{
+    width: 65%;
+    max-height: 49px;
+}
+
+@media (max-width: 1200px) {
+    .ul_podpiska li{
+        list-style: inside;
+        padding-left: 16px;
+    }
+    .megamarket{
+        background-image: none;
+    }
+    .zvuk{
+        background-image: none;
+    }
+    .cashback{
+        background-image: none;
+    }
+    .okko{
+        background-image: none;
+    }
+    .free_sber_card{
+        background-image: none;
+    }
 }
 
